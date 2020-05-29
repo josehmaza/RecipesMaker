@@ -55,12 +55,7 @@ fun verMisRecetas(recetas: MutableList<List<String?>>){
         println("Receta ${index+1} : $receta")
     }
 }
-fun hacerReceta(): MutableList<String?> {
-    var ingredientes: MutableList<String?> = mutableListOf()
 
-    return ingredientes;
-
-}
 fun getRespuesta(): Int {
     println("""
     Selecciona la opción deseada
